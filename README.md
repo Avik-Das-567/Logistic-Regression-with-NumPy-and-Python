@@ -182,7 +182,7 @@ p = predict(theta, X)
 ```
 The number of correct predictions is compared with the actual labels to evaluate the training accuracy of the model.
 ```
-Training Accuracy: ~89%
+Training Accuracy ≈ 89%
 ```
 
 ### 12. Example Prediction
