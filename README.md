@@ -9,10 +9,10 @@ This project demonstrates the **mathematical foundations of logistic regression*
 - Gradient descent optimization
 - Decision boundary visualization
 
-The entire model is implemented **without using machine learning libraries like Scikit-Learn** focusing purely on **NumPy-based numerical computation**.
+The entire model is implemented **without using machine learning libraries like Scikit-Learn**, focusing purely on **NumPy-based numerical computation**.
 
 ## Project Overview
-This project builds a **binary classification model** that learns the relationship between two exam scores, and the probability of passing the DMV written test.
+This project builds a **binary classification model** that learns the relationship between two exam scores and the probability of passing the DMV written test.
 
 The workflow includes:
 1. Loading and exploring the dataset
