@@ -1,6 +1,6 @@
 # Logistic Regression with NumPy and Python
 
-A from-scratch implementation of **Logistic Regression** using **NumPy** to classify whether a student passes a DMV written test based on two exam scores.
+A from-scratch implementation of **Logistic Regression** using **NumPy** to classify whether a student passes or fails a DMV written test based on two exam scores.
 
 This project demonstrates the **mathematical foundations of logistic regression**, including:
 - Logistic (sigmoid) function
@@ -12,7 +12,7 @@ This project demonstrates the **mathematical foundations of logistic regression*
 The entire model is implemented **without using machine learning libraries like Scikit-Learn**, focusing purely on **NumPy-based numerical computation**.
 
 ## Project Overview
-This project builds a **binary classification model** that predicts whether a student will **pass or fail a DMV written test** based on scores from two tests.
+This project builds a **binary classification model** that learns the relationship between two exam scores, and the probability of passing the DMV written test.
 
 The workflow includes:
 1. Loading and exploring the dataset
@@ -26,7 +26,8 @@ The workflow includes:
 9. Making predictions using trained parameters
 
 ## Dataset
-File: `DMV_Written_Tests.csv`
+**File:** `DMV_Written_Tests.csv`
+
 The dataset contains **100 training examples** with two input features.
 
 | Feature    | Description                       |
@@ -47,7 +48,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import pandas as pd
 ```
-Visualization style and plotting configuration are also defined.
+Visualization styles and plotting configurations are also defined.
 
 ### 2. Loading and Exploring the Dataset
 The dataset is loaded using Pandas.
@@ -179,7 +180,7 @@ Training accuracy is computed as:
 ```
 p = predict(theta, X)
 ```
-The number of correct predictions is compared with actual labels.
+The number of correct predictions is compared with the actual labels to evaluate the training accuracy of the model.
 
 ### 12. Example Prediction
 Example: Predict the probability of passing for a student with scores 50 and 79.
@@ -189,7 +190,7 @@ probability = logistic_function(test.dot(theta))
 ```
 Output:
 ```
-Probability of passing ≈ predicted value
+Predicted Probability of Passing ≈ 0.74
 ```
 
 ## Tech Stack
