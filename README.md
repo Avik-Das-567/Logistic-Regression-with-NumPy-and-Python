@@ -9,7 +9,7 @@ This project demonstrates the **mathematical foundations of logistic regression*
 - Gradient descent optimization
 - Decision boundary visualization
 
-The entire model is implemented **without using machine learning libraries like Scikit-Learn**, focusing purely on **NumPy-based numerical computation**.
+The entire model is implemented **without using machine learning libraries like Scikit-Learn** focusing purely on **NumPy-based numerical computation**.
 
 ## Project Overview
 This project builds a **binary classification model** that learns the relationship between two exam scores, and the probability of passing the DMV written test.
@@ -48,7 +48,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import pandas as pd
 ```
-Visualization styles and plotting configurations are also defined.
+Visualization styles and plotting settings are also configured.
 
 ### 2. Loading and Exploring the Dataset
 The dataset is loaded using Pandas.
@@ -181,6 +181,9 @@ Training accuracy is computed as:
 p = predict(theta, X)
 ```
 The number of correct predictions is compared with the actual labels to evaluate the training accuracy of the model.
+```
+Training Accuracy: ~89%
+```
 
 ### 12. Example Prediction
 Example: Predict the probability of passing for a student with scores 50 and 79.
